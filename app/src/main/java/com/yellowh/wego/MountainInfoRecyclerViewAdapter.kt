@@ -11,7 +11,7 @@ class MountainInfoRecyclerViewAdapter(private val infoList: Array<MountainInfo>?
     inner class InfoViewHolder(binding: ItemInfoBinding) : RecyclerView.ViewHolder(binding.root) {
         val tv_sanName = binding.mountainName
         val tv_text = binding.mountainText
-        val iv_img = binding.mountainImg
+//        val iv_img = binding.mountainImg
         val tv_favoriteCnt = binding.favoriteCount
     } // InfoViewHolder
 
